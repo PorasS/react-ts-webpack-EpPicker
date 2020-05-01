@@ -1,6 +1,6 @@
 body {
     color:white;
-    background-color: black;
+    background-color:black;
   }
   
   code {
@@ -29,4 +29,12 @@ body {
     padding: .5rem;
     position: sticky;
     top: 0;
+}
+
+.image-style{
+  border: 3px solid orange;
+  border-radius: 10px;
+  width: 300px;
+  overflow: hidden;
+  padding-left: 45px;
 }

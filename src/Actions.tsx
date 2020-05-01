@@ -8,8 +8,9 @@ export const fetchDataAction = async (dispatch: any, value: string) => {
 
     console.log("calling from fetchDataAction()");
     const webseries: string = value;
-    // const url = "http://api.tvmaze.com/singlesearch/shows?q=game+of+thrones&embed=episodes";
-    const url = `http://api.tvmaze.com/singlesearch/shows?q=${webseries}&embed=episodes`;
+
+    // calling Epservice
+    const url = `http://localhost:8085/series/name/${webseries}`;
 
     const user = {
         "id": 68,
